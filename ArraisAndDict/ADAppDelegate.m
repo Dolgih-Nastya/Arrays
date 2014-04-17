@@ -7,6 +7,7 @@
 //
 
 #import "ADAppDelegate.h"
+#import "ADArraysAndDictionariesViewController.h"
 
 @implementation ADAppDelegate
 
@@ -16,6 +17,7 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    self.window.rootViewController = [ADArraysAndDictionariesViewController new];
     return YES;
 }
 

@@ -19,6 +19,8 @@
 		3181D97D18FFEC1000364876 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3181D96518FFEC0F00364876 /* UIKit.framework */; };
 		3181D98518FFEC1000364876 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3181D98318FFEC1000364876 /* InfoPlist.strings */; };
 		3181D98718FFEC1000364876 /* ArraisAndDictTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3181D98618FFEC1000364876 /* ArraisAndDictTests.m */; };
+		3181D99318FFECBC00364876 /* ADArraysAndDictionariesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3181D99118FFECBC00364876 /* ADArraysAndDictionariesViewController.m */; };
+		3181D99418FFECBC00364876 /* ADArraysAndDictionariesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3181D99218FFECBC00364876 /* ADArraysAndDictionariesViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		3181D98218FFEC1000364876 /* ArraisAndDictTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArraisAndDictTests-Info.plist"; sourceTree = "<group>"; };
 		3181D98418FFEC1000364876 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3181D98618FFEC1000364876 /* ArraisAndDictTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArraisAndDictTests.m; sourceTree = "<group>"; };
+		3181D99018FFECBC00364876 /* ADArraysAndDictionariesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADArraysAndDictionariesViewController.h; sourceTree = "<group>"; };
+		3181D99118FFECBC00364876 /* ADArraysAndDictionariesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADArraysAndDictionariesViewController.m; sourceTree = "<group>"; };
+		3181D99218FFECBC00364876 /* ADArraysAndDictionariesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADArraysAndDictionariesViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				3181D97018FFEC1000364876 /* ADAppDelegate.h */,
 				3181D97118FFEC1000364876 /* ADAppDelegate.m */,
+				3181D99018FFECBC00364876 /* ADArraysAndDictionariesViewController.h */,
+				3181D99118FFECBC00364876 /* ADArraysAndDictionariesViewController.m */,
+				3181D99218FFECBC00364876 /* ADArraysAndDictionariesViewController.xib */,
 				3181D97318FFEC1000364876 /* Images.xcassets */,
 				3181D96818FFEC0F00364876 /* Supporting Files */,
 			);
@@ -222,6 +230,7 @@
 			files = (
 				3181D96C18FFEC0F00364876 /* InfoPlist.strings in Resources */,
 				3181D97418FFEC1000364876 /* Images.xcassets in Resources */,
+				3181D99418FFECBC00364876 /* ADArraysAndDictionariesViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3181D96E18FFEC1000364876 /* main.m in Sources */,
+				3181D99318FFECBC00364876 /* ADArraysAndDictionariesViewController.m in Sources */,
 				3181D97218FFEC1000364876 /* ADAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
